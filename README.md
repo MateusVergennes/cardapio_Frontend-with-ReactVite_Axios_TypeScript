@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# Frontend da Aplicação 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório do frontend da minha incrível aplicação! Aqui, você encontrará informações sobre como visualizar a lista de alimentos, adicionar novos itens e explorar a magia por trás do funcionamento. 🍔🍕🍜
 
-Currently, two official plugins are available:
+## Funcionalidades 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Visualização da Lista de Alimentos 🍽️
+- Explore a vasta lista de alimentos com suas imagens e preços correspondentes.
+- Dados obtidos através do link fornecido.
 
-## Expanding the ESLint configuration
+### Adição de Novos Alimentos 🆕
+- Utilize a funcionalidade de adição para inserir novos alimentos na lista.
+- Integração com o backend usando Axios.
+- Utilização dos métodos GET e POST para interagir com a API.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Banco de Dados PostgreSQL 🛢️
 
-- Configure the top-level `parserOptions` property like this:
+### Configuração do Banco de Dados 💾
+- O arquivo "config_data_base.db" contém a configuração do banco de dados PostgreSQL.
+- Acesse para conferir o repositório do backend.
+- [![Link para o Repositório GitHub Backend](https://img.shields.io/badge/Link%20para%20o%20Reposit%C3%B3rio%20GitHub%20Backend-informational)](https://github.com/MateusVergennes/cardapio_Backend-with-SpringBoot_Postgree_)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Armazenamento de Dados 📦
+- O backend tem acesso a um banco de dados PostgreSQL para armazenar todas as informações importantes.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Como Começar 🏁
+
+1. Clone este repositório.
+2. Certifique-se de ter o [backend configurado corretamente](https://github.com/MateusVergennes/cardapio_Backend-with-SpringBoot_Postgree_).
+3. Execute a aplicação e explore todas as funcionalidades!
+
+## Contribua! 🤝
+
+Sinta-se à vontade para contribuir, reportar problemas ou sugerir melhorias. Toda ajuda é bem-vinda! 😊
+
+
+Divirta-se explorando o frontend! 🎉
