@@ -1,0 +1,17 @@
+INSERT INTO foods (title, image, price)
+VALUES 
+  ('Hambúrguer', 'https://moinhoglobo.com.br/wp-content/uploads/2019/05/16-hamburguer.jpeg', 25),
+  ('Pizza', 'https://clube-static.clubegazetadopovo.com.br/portal/wp-content/uploads/2020/06/dominos-pizza-mussarela-imprensa-handam.jpg', 45),
+  ('Sushi', 'https://blogsakura.com.br/wp-content/uploads/2021/11/Blog1_01NOV21.jpg', 30),
+  ('Tacos', 'https://static.itdg.com.br/images/1200-630/763a97fad5636232d9ffe30955b44acf/347923-original.jpg', 20),
+  ('Hot Dog', 'https://img.freepik.com/fotos-gratis/cachorro-quente-de-carne-grelhada-com-lanche-de-ketchup-ia-generativa_188544-7829.jpg', 15),
+  ('Kebab', 'https://conteudo.imguol.com.br/67/2016/07/01/kebab-tv-uol-1467411007247_1291x683.jpg', 25),
+  ('Ramen', 'https://pt.petitchef.com/imgupl/recipe/ramen-de-frango-uma-deliciosa-sopa-oriental-facil-e-rapida--464535p736469.jpg', 35),
+  ('Curry', 'https://t2.uc.ltmcdn.com/pt/posts/8/8/6/como_fazer_curry_japones_29688_orig.jpg', 40),
+  ('Paella', 'https://img.freepik.com/fotos-premium/paella-com-curry-de-frango-e-cenoura_783571-1808.jpg', 50),
+  ('Biryani', 'https://img.freepik.com/fotos-premium/uma-tigela-de-biryani-de-frango-com-uma-tigela-de-curry-e-uma-tigela-de-curry_865967-8825.jpg?w=2000', 30);
+
+  DELETE FROM foods;
+  
+  SELECT * FROM foods;
+
